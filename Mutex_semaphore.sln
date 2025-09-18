@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex_semaphore", "Mutex_semaphore\Mutex_semaphore.csproj", "{7E340E16-97C0-48EA-AFF3-A196F1227B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E340E16-97C0-48EA-AFF3-A196F1227B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E340E16-97C0-48EA-AFF3-A196F1227B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E340E16-97C0-48EA-AFF3-A196F1227B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E340E16-97C0-48EA-AFF3-A196F1227B90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7056A517-9D9C-4702-852D-E4E00385D55E}
+	EndGlobalSection
+EndGlobal
