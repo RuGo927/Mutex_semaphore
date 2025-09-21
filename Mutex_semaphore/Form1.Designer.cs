@@ -36,12 +36,15 @@
             label3 = new Label();
             label4 = new Label();
             numericUpDown1 = new NumericUpDown();
-            button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // listBox1
             // 
+            listBox1.BackColor = Color.FromArgb(64, 64, 64);
+            listBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            listBox1.ForeColor = Color.FromArgb(128, 255, 128);
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
             listBox1.Location = new Point(12, 27);
@@ -51,6 +54,9 @@
             // 
             // listBox2
             // 
+            listBox2.BackColor = Color.FromArgb(64, 64, 64);
+            listBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            listBox2.ForeColor = Color.Red;
             listBox2.FormattingEnabled = true;
             listBox2.ItemHeight = 15;
             listBox2.Location = new Point(263, 27);
@@ -60,18 +66,23 @@
             // 
             // listBox3
             // 
+            listBox3.BackColor = Color.FromArgb(64, 64, 64);
+            listBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            listBox3.ForeColor = Color.White;
             listBox3.FormattingEnabled = true;
             listBox3.ItemHeight = 15;
             listBox3.Location = new Point(516, 27);
-            listBox3.Name = "listBox3";
+            listBox3.Name = "CreateThreadList";
             listBox3.Size = new Size(218, 199);
             listBox3.TabIndex = 2;
+
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
-            label1.Location = new Point(12, 9);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(12, 4);
             label1.Name = "label1";
             label1.Size = new Size(129, 20);
             label1.TabIndex = 3;
@@ -82,7 +93,8 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
-            label2.Location = new Point(263, 9);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(263, 4);
             label2.Name = "label2";
             label2.Size = new Size(123, 20);
             label2.TabIndex = 4;
@@ -92,16 +104,17 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
-            label3.Location = new Point(516, 9);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(516, 4);
             label3.Name = "label3";
             label3.Size = new Size(123, 20);
             label3.TabIndex = 5;
             label3.Text = "Created Threads";
-            label3.Click += label3_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.ForeColor = Color.White;
             label4.Location = new Point(12, 229);
             label4.Name = "label4";
             label4.Size = new Size(111, 15);
@@ -110,27 +123,31 @@
             // 
             // numericUpDown1
             // 
+            numericUpDown1.BackColor = SystemColors.Info;
+            numericUpDown1.Font = new Font("Segoe UI", 11F);
             numericUpDown1.Location = new Point(12, 247);
             numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(120, 23);
+            numericUpDown1.Size = new Size(111, 27);
             numericUpDown1.TabIndex = 7;
             // 
-            // button1
+            // button2
             // 
-            button1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(618, 232);
-            button1.Name = "button1";
-            button1.Size = new Size(116, 38);
-            button1.TabIndex = 8;
-            button1.Text = "Create New";
-            button1.UseVisualStyleBackColor = true;
+            button2.BackColor = Color.Silver;
+            button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(620, 235);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 38);
+            button2.TabIndex = 8;
+            button2.Text = "Create New";
+            button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(750, 284);
-            Controls.Add(button1);
+            BackColor = Color.FromArgb(21, 51, 51);
+            ClientSize = new Size(744, 291);
+            Controls.Add(button2);
             Controls.Add(numericUpDown1);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -142,7 +159,6 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Form1";
             Text = "Threads & Semaphore";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -158,6 +174,6 @@
         private Label label3;
         private Label label4;
         private NumericUpDown numericUpDown1;
-        private Button button1;
+        private Button button2;
     }
 }
