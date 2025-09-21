@@ -5,11 +5,10 @@ namespace Mutex_semaphore
         public Form1()
         {
             InitializeComponent();
-            listBox1.Items.Clear();
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+
         {
 
         }
