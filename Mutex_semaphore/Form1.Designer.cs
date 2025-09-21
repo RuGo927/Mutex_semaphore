@@ -87,7 +87,6 @@
             label1.Size = new Size(129, 20);
             label1.TabIndex = 3;
             label1.Text = "Working Threads";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
